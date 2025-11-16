@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile - Attendance Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; background: #f5f7fa; display: flex; }
+    .sidebar { width: 250px; background: #003366; color: white; position: fixed; height: 100vh; padding-top: 20px; }
+    .sidebar a { display: block; color: white; padding: 15px 25px; text-decoration: none; font-weight: 500; }
+    .sidebar a:hover { background: #0059b3; }
+    .content { margin-left: 250px; padding: 40px; flex: 1; }
+    .card { border: none; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h4>👨‍💼 Employee</h4>
+    <a href="employee_dashboard.html">🏠 Dashboard</a>
+    <a href="walls.html">📰 Walls</a>    
+    <a href="employee_leave.html">📝 Leave Request</a>
+    <a href="employee_profile.html">👤 Profile</a>
+    <a href="index.html">🚪 Logout</a>
+  </div>
+
+  <div class="content">
+    <h3>👤 My Profile</h3>
+    <div class="card mt-4 p-4" style="max-width:600px;">
+      <p><strong>Name:</strong> Nikhitha Matta</p>
+      <p><strong>Employee ID:</strong> 1</p>
+      <p><strong>Department:</strong> Human Resources</p>
+      <p><strong>Email:</strong> nikhitha@example.com</p>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+      <p><strong>Joined On:</strong> 15 Feb 2024</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
